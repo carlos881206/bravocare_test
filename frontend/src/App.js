@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react';
 import axios from 'axios';
 import './App.css';
 
-const BASE_URL = 'http://192.168.2.168:4000';
+const BASE_URL = 'http://localhost:4000';
 
 function App() {
     const [shifts, setShifts] = useState([]);

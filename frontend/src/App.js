@@ -76,6 +76,7 @@ function App() {
                         <div
                             className={`shift-box ${selected.includes(shift.shift_id) ? 'selected': ''}`}
                             onClick={() => selectShift(shift.shift_id)}
+                            key={shift.shift_id}
                         >
                             <p>{shift.facility_name}</p>
                             <p>{shift.shift_date}</p>
